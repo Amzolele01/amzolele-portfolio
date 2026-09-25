@@ -1,0 +1,25 @@
+import Navbar from "@/components/sections/Navbar";
+import Hero from "@/components/sections/Hero";
+import WhatIDo from "@/components/sections/whatIDo";
+import Projects from "@/components/sections/Projects";
+import Skills from "@/components/sections/Skills";
+import Certifications from "@/components/sections/Certifications";
+import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact";
+import Footer from "@/components/sections/Footer";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-background text-foreground">
+      <Navbar />
+      <Hero />
+      <WhatIDo />
+      <Projects />
+      <Skills />
+      <Certifications />
+      <About />
+      <Contact />
+      <Footer />
+    </main>
+  );
+}
