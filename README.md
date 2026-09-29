@@ -1,5 +1,5 @@
 # Amzolele — Software Developer & Technology Builder
-
+ draft README documentation 
 > A personal technology portfolio showcasing software development, databases, data, cybersecurity, networking, and electronics projects.
 
 ---
@@ -956,7 +956,7 @@ The portfolio will continue to evolve alongside the projects and technical exper
 
 Author
 
-Lee
+Amzolele
 
 Software Developer & Technology Builder
 
@@ -972,19 +972,4 @@ License
 This repository contains a personal portfolio and associated project work.
 
 Unless otherwise stated, the source code and original content are not intended for redistribution or commercial reuse.
-
-### One thing I'd change later
-
-I would **not treat this README as final documentation yet**. The structure above is our current project specification, but once the portfolio is actually finished, we'll do a final README pass and update:
-
-- the actual architecture
-- final technologies
-- real project list
-- screenshots
-- deployment URL
-- GitHub links
-- completed features
-- challenges and solutions
-- final roadmap/status
-
-That way the GitHub README becomes a **record of the finished engineering project**, rather than a document that becomes outdated while we're still building.
+.
