@@ -2,6 +2,7 @@ const footerNavigation = [
   { name: "Home", href: "#home" },
   { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
+  { name: "Certifications", href: "#certifications" },
   { name: "About", href: "#about" },
   { name: "Contact", href: "#contact" },
 ];

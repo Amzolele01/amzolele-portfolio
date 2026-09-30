@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Project } from "@/types/project";
+import type { Project } from "@/types/projects";
 
 type ProjectCardProps = {
   project: Project;
