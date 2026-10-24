@@ -7,6 +7,7 @@
 ## Overview
 
 This repository contains the source code for my personal portfolio website.
+link: https://amzolele-portfolio-ai61.vercel.app/
 
 The portfolio is designed to be more than a personal landing page. It serves as a central platform for presenting my technical background, projects, skills, certifications, areas of interest, and continued development as a technology builder.
 
