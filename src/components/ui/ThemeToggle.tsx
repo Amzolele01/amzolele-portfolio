@@ -7,14 +7,6 @@ type Theme = "light" | "dark" | "system";
 export default function ThemeToggle() {
   const [theme, setTheme] = useState<Theme>("system");
 
-  useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") as Theme | null;
-
-    if (savedTheme === "light" || savedTheme === "dark" || savedTheme === "system") {
-      setTheme(savedTheme);
-    }
-  }, []);
-
   const applyTheme = (newTheme: Theme) => {
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
@@ -39,6 +31,43 @@ export default function ThemeToggle() {
       root.classList.add(prefersDark ? "dark" : "light");
     }
   };
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme") as Theme | null;
+
+    if (
+      savedTheme === "light" ||
+      savedTheme === "dark" ||
+      savedTheme === "system"
+    ) {
+      applyTheme(savedTheme);
+    } else {
+      // No saved preference:
+      // automatically follow the computer's system theme.
+      applyTheme("system");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (theme !== "system") return;
+
+    const mediaQuery = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    );
+
+    const handleSystemThemeChange = () => {
+      const root = document.documentElement;
+
+      root.classList.remove("light", "dark");
+      root.classList.add(mediaQuery.matches ? "dark" : "light");
+    };
+
+    mediaQuery.addEventListener("change", handleSystemThemeChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleSystemThemeChange);
+    };
+  }, [theme]);
 
   return (
     <div className="flex items-center gap-1 rounded-lg border border-[var(--border)] bg-[var(--surface)] p-1">
