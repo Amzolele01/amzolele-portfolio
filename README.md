@@ -89,3 +89,47 @@ The interface is designed to adapt to different screen sizes, including:
 ### 9. Reusable UI Components
 
 The application uses reusable components to maintain consistency and reduce unnecessary duplication across the interface.
+
+## Technology Stack
+
+The AMZOLELE Portfolio is built using a modern web development stack.
+
+### Frontend
+
+- **Next.js** – React framework used to build the website.
+- **React** – Component-based library used to develop the user interface.
+- **TypeScript** – Adds static typing to the application.
+- **Tailwind CSS** – Utility-first CSS framework used for styling and responsive layouts.
+
+### Development Environment
+
+- **Node.js** – JavaScript runtime used in the development environment.
+- **Visual Studio Code** – Primary code editor.
+- **Git** – Version control for tracking code changes.
+- **GitHub** – Repository hosting and source code management.
+
+### Deployment
+
+- **Vercel** – Platform used to deploy and host the portfolio website.
+
+## Project Architecture
+
+The LEE Portfolio follows a component-based architecture using Next.js and React.
+
+The application is organised around reusable components and clearly defined website sections. This approach helps keep the code organised, maintainable, and easier to extend.
+
+### Main Components
+
+- **Page Sections** – Organise the website's content, including Hero, What I Do, Projects, Skills, About, and Contact.
+- **Navigation** – Provides access to the main sections of the portfolio.
+- **ProjectCard** – A reusable component for presenting individual projects.
+- **ThemeToggle** – Controls the website's appearance by allowing visitors to select Light, Dark, or System mode.
+
+### Architecture Approach
+
+The project uses the following principles:
+
+- **Component reusability:** Shared interface elements are built as reusable components.
+- **Separation of concerns:** Different components are responsible for specific interface functions.
+- **Maintainability:** The structure supports easier updates and future development.
+- **Scalability:** New sections and functionality can be added as the portfolio grows.
