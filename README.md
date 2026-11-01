@@ -1,4 +1,4 @@
-# LEE Portfolio — Software Developer & Technology Builder
+# AMZOLELE Portfolio — Software Developer & Technology Builder
 
 A personal technology portfolio showcasing software development, databases, data, cybersecurity, networking, and electronics.
 
