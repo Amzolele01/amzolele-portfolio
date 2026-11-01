@@ -89,7 +89,7 @@ The interface is designed to adapt to different screen sizes, including:
 ### 9. Reusable UI Components
 
 The application uses reusable components to maintain consistency and reduce unnecessary duplication across the interface.
-
+___
 ## Technology Stack
 
 The AMZOLELE Portfolio is built using a modern web development stack.
