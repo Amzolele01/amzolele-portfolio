@@ -298,3 +298,45 @@ The AMZOLELE Portfolio is an ongoing project. Development focuses on improving t
 
 The roadmap may change as the project develops and new requirements are identified.
 
+## Deployment
+
+The LEE Portfolio is deployed and hosted using **Vercel**.
+
+**Live Website:** https://amzolele-portfolio-ai61.vercel.app/
+
+### Deployment Workflow
+
+The project uses GitHub for source code management and Vercel for deployment.
+
+The general workflow is:
+
+1. Make changes to the project locally using Visual Studio Code.
+2. Test and review the changes.
+3. Commit the changes using Git.
+4. Push the updates to the GitHub repository.
+5. Deploy the updated application through Vercel.
+
+### Hosting
+
+- **Hosting Platform:** Vercel
+- **Source Code Repository:** GitHub
+- **Framework:** Next.js
+
+The deployment setup allows the live portfolio to be updated as development continues.
+
+## Author
+
+**Amzolele Jolingana**  
+Software Developer & Technology Builder
+
+- **GitHub:** https://github.com/Amzolele01
+- **Portfolio:** https://amzolele-portfolio-ai61.vercel.app/
+- **LinkedIn:** https://linkedin.com/in/amzolele-jolingana
+
+This project is part of my ongoing technical development and portfolio-building journey.
+
+## License
+
+This project is currently intended as a personal portfolio project.
+
+Unless a license is explicitly added to this repository, all rights are reserved by the author.
