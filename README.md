@@ -133,3 +133,168 @@ The project uses the following principles:
 - **Separation of concerns:** Different components are responsible for specific interface functions.
 - **Maintainability:** The structure supports easier updates and future development.
 - **Scalability:** New sections and functionality can be added as the portfolio grows.
+
+___
+## Design & Development Decisions
+
+The portfolio is developed with an emphasis on usability, consistency, responsiveness, and maintainability.
+
+### 1. Visual Design
+
+- A clean and minimal interface keeps attention on the content.
+- The design uses a technical visual identity that reflects the portfolio's focus on technology.
+- Consistent spacing, typography, and component styling help maintain visual consistency.
+
+### 2. Theme System
+
+The website supports three theme options:
+
+- **Light:** Displays the website using a light colour scheme.
+- **Dark:** Displays the website using a dark colour scheme.
+- **System:** Follows the visitor's operating system appearance preference.
+
+This provides flexibility while respecting the visitor's existing display preferences.
+
+### 3. Responsive Design
+
+The layout is designed to adapt to different screen sizes rather than relying on a single fixed layout.
+
+### 4. Component Reusability
+
+Reusable components help reduce duplicated code and make it easier to maintain a consistent interface.
+
+### 5. Maintainability and Future Development
+
+The project is structured to support future improvements, including additional project information, interface refinements, and new functionality.
+
+___
+## Design & Development Decisions
+
+The portfolio was developed with an emphasis on simplicity, usability, maintainability, and responsiveness.
+
+### 1. Component-Based Development
+
+React components were used to separate the interface into smaller, reusable parts.
+
+This makes it easier to maintain the application, update individual sections, and introduce new functionality.
+
+### 2. Responsive Design
+
+The interface was designed to adapt to different screen sizes, providing a consistent experience across mobile phones, tablets, and desktop displays.
+
+### 3. Theme System
+
+A three-mode theme system was implemented:
+
+- **Light:** Displays the light appearance.
+- **Dark:** Displays the dark appearance.
+- **System:** Follows the visitor's operating system preference.
+
+This provides flexibility while respecting the visitor's preferred display settings.
+
+### 4. Reusable Styling
+
+Tailwind CSS was selected to support consistent styling and make layout adjustments easier during development.
+
+### 5. Maintainability and Future Development
+
+The application structure and design decisions aim to make future improvements easier without requiring unnecessary changes to the entire application.
+
+___
+## Testing & Quality Assurance
+
+Testing was carried out during development to check the website's functionality, layout, and responsiveness.
+
+### 1. Responsive Design Testing
+
+The website's layout was checked across different screen sizes to evaluate how the interface adapts to different devices.
+
+The testing covered:
+
+- Mobile phones
+- Tablets
+- Laptops
+- Desktop monitors
+- Large displays
+
+The purpose was to identify layout issues and ensure that content and interface components remained usable at different viewport sizes.
+
+### 2. Theme Testing
+
+The theme system was checked to ensure that visitors could switch between:
+
+- Light mode
+- Dark mode
+- System mode
+
+The System option was also checked against the operating system's appearance preference.
+
+### 3. Component and Interface Testing
+
+Interface components were reviewed during development to check their appearance, consistency, and behaviour.
+
+### 4. Iterative Refinement
+
+Issues identified during testing were used to guide further adjustments to the layout, styling, and component behaviour.
+
+Testing and refinement formed part of the ongoing development process.
+
+___
+
+## Development Methodology
+
+The AMZOLELE Portfolio was developed using an **iterative and incremental development approach**.
+
+Development was divided into manageable stages, allowing individual sections and features to be implemented, reviewed, tested, and improved over time.
+
+### Development Process
+
+The general development cycle involved:
+
+1. **Planning** – Identifying the website's requirements, structure, and intended functionality.
+2. **Implementation** – Building the interface, components, and features.
+3. **Testing** – Checking functionality, responsiveness, and interface behaviour.
+4. **Review** – Evaluating the implementation and identifying areas for improvement.
+5. **Refinement** – Making adjustments based on testing and review.
+6. **Documentation** – Recording important development decisions and project progress.
+
+### Methodology Classification
+
+This project does not strictly follow Test-Driven Development (TDD), where tests are written before the corresponding implementation.
+
+Instead, it follows an iterative development process in which features are built and progressively improved through testing and feedback.
+
+This approach supports continuous improvement while keeping the project manageable.
+
+___
+## Development Roadmap
+
+The AMZOLELE Portfolio is an ongoing project. Development focuses on improving the existing website, presenting practical work, and expanding its functionality over time.
+
+### Completed Work
+
+- Initial project setup and configuration.
+- Development of the main portfolio interface.
+- Implementation of the main website sections.
+- Development of reusable UI components.
+- Implementation of the Light, Dark, and System theme options.
+- Responsive layout development and testing.
+- Initial deployment to Vercel.
+
+### Ongoing Improvements
+
+- Refining the website's content and presentation.
+- Improving project descriptions and showcasing practical work.
+- Reviewing interface consistency and usability.
+- Maintaining and improving the application structure.
+
+### Future Development
+
+- Expanding project-specific content and demonstrations.
+- Improving accessibility and SEO.
+- Reviewing website performance.
+- Introducing additional features where they add value.
+- Continuously improving the overall user experience.
+
+The roadmap may change as the project develops and new requirements are identified.
+
