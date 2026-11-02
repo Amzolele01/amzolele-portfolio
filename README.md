@@ -114,7 +114,7 @@ The AMZOLELE Portfolio is built using a modern web development stack.
 
 ## Project Architecture
 
-The LEE Portfolio follows a component-based architecture using Next.js and React.
+The AMZOLELE Portfolio follows a component-based architecture using Next.js and React.
 
 The application is organised around reusable components and clearly defined website sections. This approach helps keep the code organised, maintainable, and easier to extend.
 
